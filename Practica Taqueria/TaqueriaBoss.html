@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tacos el Boss</title>
+    <link rel="stylesheet" href="./EstiloTacos.css">
+</head>
+<body>
+
+    <header>
+        <h1>Tacos el Boss, desde 2022</h1>
+    </header>
+        <div class="center">
+    <img class="logo" src="./Img/Tacos el Boss.png" alt="Logo Tacos el Boss">
+        </div>
+    
+    <h2>Menu</h2>
+
+    <hr>
+
+    <h3>Tacos Grandes</h3>
+        <p>Todos los tacos incluyen papas o nopales</p>
+        <ul>
+            <li>Bisteck ..................... $20</li>
+            <li>Longaniza ................ $20</li>
+            <li>Pastor ...................... $25</li>
+            <li>Tripa ........................ $30</li>
+            <li>Campechano ............ $30</li>
+        </ul>
+
+    <hr>
+
+    <h3>Tacos Pequeños</h3>
+        <p>Todos los tacos incluyen papas o nopales</p>
+        <ul>
+            <li>Bisteck ..................... $15</li>
+            <li>Longaniza ................ $15</li>
+            <li>Pastor ...................... $20</li>
+            <li>Tripa ........................ $25</li>
+            <li>Campechano ............ $25</li>
+        </ul>
+
+    <hr>
+
+    <h3>Especiales</h3>
+        <p>Todos los tacos incluyen cilantro y cebolla</p>
+        <dl>
+            <dt><b>Labrador ............................................ $40</b></dt>
+            <dd>-Tortilla de maiz con longaniza y frijoles</dd>
+            <dt><b>Pator Aleman .................................. $40</b></dt>
+            <dd>-Tortilla de arina con pastor, piña y papas</dd>
+            <dt><b>Chihuahua ........................................ $40</b></dt>
+            <dd>-Tortilla de maiz o harina con bisteck y quesillo</dd>
+            <dt><b>El adoptado ...................................... $40</b></dt>
+            <dd>-Tortilla de maiz o harina campechano sin papas</dd>
+        </dl>
+
+    <hr>
+
+    <h2>Ubicacion</h2>
+
+    <h3>Sucursales</h3>
+        <table>
+            <tr>
+                <td>Centro</td>
+                <td><a href="https://goo.gl/maps/Seh6xvQbUbrvMHxy5" target="_blank">Cuauhtémoc, 06700 Ciudad de México, CDMX</a></td>
+                <td>J - D 6:00pm - 3:00am</td>
+            </tr>
+            <tr>
+                <td>Norte</td>
+                <td><a href="https://goo.gl/maps/wKBLFxncH6udnYWs6" target="_blank">Gustavo A. Madero, 07760 Ciudad de México, CDMX</a></td>
+                <td>J - D 7:00pm - 2:00am</td>
+            </tr>
+            <tr>
+                <td>Sur</td>
+                <td><a href="https://goo.gl/maps/5Mt4kRFeSzJ6YKWm8" target="_blank">Huipulco, Tlalpan, 14370 Ciudad de México, CDMX</a></td>
+                <td>J - D 7:00pm - 2:00am</td>
+            </tr>
+        </table>
+
+        <hr>
+
+    <h2>Pedidos</h2>
+
+    <h3>Realiza tu pedido aqui</h3>
+
+    <form class="lugar" action="">
+        <p>¿Que taqueria esta mas cerca de su hogar?</p>
+        <div class="content-select">
+            <select>
+                <option value="Centro">Centro</option>
+                <option value="Norte">Norte</option>
+                <option value="Sur">Sur</option>
+            </select>
+            <i></i>
+        </div>
+        <p>¿De que y cuantos tacos va a querer?</p>
+            <input type="checkbox" id="Bisteck" name="Bisteck" value="Bisteck">
+            <label for="Bisteck">Bisteck </label>
+            <input type="number" id="BisteckNumber" name="BisteckNumber" placeholder="¿Cuantos?">
+            <br><br>
+            <input type="checkbox" id="Longaniza" name="Longaniza" value="Longaniza">
+            <label for="Longaniza">Longaniza</label>
+            <input type="number" id="LonganizaNumber" name="LonganizaNumber" placeholder="¿Cuantos?">
+            <br><br>
+            <input type="checkbox" id="Pastor" name="Pastor" value="Pastor">
+            <label for="Pastor">Pastor</label>
+            <input type="number" id="PastorNumber" name="PastorNumber" placeholder="¿Cuantos?">
+            <br><br>
+            <input type="checkbox" id="Tripa" name="Tripa" value="Tripa">
+            <label for="Tripa">Tripa</label>
+            <input type="number" id="TripaNumber" name="TripaNumber" placeholder="¿Cuantos?">
+            <br><br>
+            <input type="checkbox" id="Campechano" name="Campechano" value="Campechano">
+            <label for="Campechano">Campechano</label>
+            <input type="number" id="CampechanoNumber" name="CampechanoNumber" placeholder="¿Cuantos?">
+            <br><br>
+
+        <hr>
+            <label for="Nombre">Nombre:</label><br>
+            <input type="text" id="Nombre" placeholder="¿Cual es tu nombre?">
+            <br><br>
+            <label for="Telefono">Telefono:</label><br>
+            <input type="tel" id="Telefono" maxlength="10" placeholder="¿Cual es tu telefono?">
+            <br><br>
+            <label for="Direccion">Direccion:</label><br>
+            <input type="text" id="Direccion" placeholder="¿Cual es tu direccion?">
+            <br><br>
+            <input type="submit" value="Enviar">
+            <input type="reset">
+    </form>
+</body>
+</html>
