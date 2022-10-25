@@ -53,3 +53,5 @@ Te dejo el link directo a "miro" para que puedas ver con mayor detalle el UX :ey
 <img src="./Img/1UI.PNG" alt="1UI" height="500"> <img src="./Img/2UI.PNG" alt="2UI" height="500"> <img src="./Img/3UI.PNG" alt="3UI" height="500">
 
 Te dejo el link directo a "Figma" para que puedas ver con mayor detalle el UI :eyes: :point_right: [LINK](https://www.figma.com/file/foYesV5WCekGSxL832I3ya/UI-Restaurante?node-id=0%3A1)
+
+[Volver al menu &ldca;](../README.md "Regresar a página principal")
