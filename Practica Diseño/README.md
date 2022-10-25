@@ -32,4 +32,8 @@ UX y UI
 
 Diagrama de Flujo
 
-<img src="./Img/Diagrama de Flujo.jpg" alt="DiagramaFlujo" height="500">
+<img src="./Img/DiagramaFlujo.jpg" alt="DiagramaFlujo" height="400">
+
+## Buyer Persona :frowning_man:
+
+<img src="./Img/BuyerPersona.png" alt="BuyerPersona" height="400">
