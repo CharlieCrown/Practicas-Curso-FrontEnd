@@ -44,8 +44,4 @@ Diagrama de Flujo
 
 ## Wireframe UX :iphone:
 
-<img src="./Img/1UX.PNG" alt="1UX" height="600">
-
-<img src="./Img/2UX.PNG" alt="2UX" height="600">
-
-<img src="./Img/3UX.PNG" alt="3UX" height="600">
+<img src="./Img/1UX.PNG" alt="1UX" height="600"> <img src="./Img/2UX.PNG" alt="2UX" height="600"> <img src="./Img/3UX.PNG" alt="3UX" height="600">
