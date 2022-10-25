@@ -31,3 +31,5 @@ UX y UI
 - Sección cuenta: En esta sección abran más opciones disponibles para el usuario y estarán divididas de la siguiente manera: (Perfil: ajustes y cerrar sesión), (Mas: Preguntas frecuentes, Sobre la App y Código QR) y (Contacto: Número telefónico del restaurante y redes sociales).
 
 Diagrama de Flujo
+
+<img src="./Img/Diagrama de Flujo.jpg" alt="DiagramaFlujo" height="500">
