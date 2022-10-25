@@ -46,6 +46,9 @@ Diagrama de Flujo
 
 <img src="./Img/1UX.PNG" alt="1UX" height="600"> <img src="./Img/2UX.PNG" alt="2UX" height="600"> <img src="./Img/3UX.PNG" alt="3UX" height="600">
 
+Te dejo el link directo a miro para que puedas ver con mayor detalle el UX :eyes: :point_right: [VER](https://miro.com/app/board/uXjVPOlOV5Y=/?share_link_id=577314465587)
+
 ## Diseño UI :iphone:
 
-<img src="./Img/1UI.PNG" alt="1UI" height="600"> <img src="./Img/2UI.PNG" alt="2UI" height="600"> <img src="./Img/3UI.PNG" alt="3UI" height="600">
+<img src="./Img/1UI.PNG" alt="1UI" height="500"> <img src="./Img/2UI.PNG" alt="2UI" height="500"> <img src="./Img/3UI.PNG" alt="3UI" height="500">
+
