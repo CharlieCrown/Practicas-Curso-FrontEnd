@@ -40,4 +40,12 @@ Diagrama de Flujo
 
 ## Publico Objetivo :family_man_woman_boy:
 
-<img src="./Img/PublicoObjetivo.jpg" alt="PublicoObjetivo" height="500">
+<img src="./Img/PublicoObjetivo.jpg" alt="PublicoObjetivo" height="600">
+
+## Wireframe UX :iphone:
+
+<img src="./Img/1UX.PNG" alt="1UX" height="600">
+
+<img src="./Img/2UX.PNG" alt="2UX" height="600">
+
+<img src="./Img/3UX.PNG" alt="3UX" height="600">
