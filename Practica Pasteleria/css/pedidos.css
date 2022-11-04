@@ -1,0 +1,188 @@
+@import url(./menu.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arima', cursive;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    background-color: #000000;
+    color: #ffb9b8;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.contenedor {
+    width: 98%;
+    margin: auto;
+}
+
+header .contenedor {
+    display: table;
+}
+
+h1 {
+    float: left;
+}
+
+section {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+@media (min-width:1024px) {
+    .contenedor {
+        width: 1000px;
+    }
+}
+
+/*Rellenos Formulario*/
+
+#formulario {
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    margin-top: 3em;
+}
+
+#formulario .contenedor {
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+.dato {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    width: 10%;
+}
+
+.relleno {
+    margin: 30px;
+    color: rgb(0, 0, 0);
+}
+
+.relleno img {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 7px solid #41c0ab;
+}
+
+/*Responsive*/
+
+@media (min-width:480px) {
+    .relleno {
+        width: 40%;
+    }
+    .dato {
+        width: 50%;
+    }
+}
+
+@media (min-width:1024px) {
+    .relleno {
+        width: 25%;
+    }
+    .dato{
+        width: 20%;
+        margin-right: 12em;
+    }
+}
+
+ /*Boton*/
+
+ #formulario .bot{
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content:center;
+
+ }
+
+button {
+  width: 30%;
+  padding: 8px 0;
+  cursor: pointer;
+  border-color:#41c0ab;
+  border-radius: 100px;
+  font-size: 1rem;
+  background-color: #ffff;
+  margin-bottom: 7px;
+}
+
+.cancelar {
+  width: 30%;
+  margin-left: 1em;
+  padding: 8px 0;
+  cursor: pointer;
+  border-color:#41c0ab;
+  color: rgb(0, 0, 0);
+  border-radius: 100px;
+  font-size: 1rem;
+  background-color: #ffff;
+  margin-bottom: 7px;
+}
+
+.cancelar:hover {
+  background-color: #ffb9b8;
+  transform: scale(1.1);
+}
+
+button:hover {
+  background-color: #ffb9b8;
+  transform: scale(1.1);
+}
+
+/*FOOTER*/
+footer .contenedor {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 10px;
+    background-color: #000000;
+    font-size: 15px;
+    color: #ffb9b8;
+}
+
+.copy {
+    font-size: 15px;
+    color:#ffb9b8;
+}
+
+.sociales {
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+}
+
+.sociales a {
+    color: #ffb9b8;
+    text-decoration: none;
+}
+
+/*Responsive*/
+
+@media (min-width:768px) {
+
+    .sociales {
+        width: auto;
+    }
+    
+    footer .contenedor {
+        justify-content:space-evenly;
+    }
+}

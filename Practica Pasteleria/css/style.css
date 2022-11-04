@@ -1,0 +1,96 @@
+@import url(./menu.css);
+@import url(./banner.css);
+@import url(./pasteles.css);
+@import url(./info.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Arima', cursive;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    background-color: #000000;
+    color: #ffb9b8;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.contenedor {
+    width: 98%;
+    margin: auto;
+}
+
+header .contenedor {
+    display: table;
+}
+
+h1 {
+    float: left;
+}
+
+section {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+/*BIENVENIDOS*/
+#Bienvenidos {
+    background-color: #41c0ab;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px;
+}
+
+/*FOOTER*/
+footer .contenedor {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 10px;
+    background-color: #000000;
+    font-size: 15px;
+    color: #ffb9b8;
+}
+
+.copy {
+    font-size: 15px;
+    color:#ffb9b8;
+}
+
+.sociales {
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+}
+
+.sociales a {
+    color: #ffb9b8;
+    text-decoration: none;
+}
+
+/*Responsive*/
+
+@media (min-width:768px) {
+
+    .sociales {
+        width: auto;
+    }
+    
+    footer .contenedor {
+        justify-content:space-evenly;
+    }
+}
+
+@media (min-width:1024px) {
+    .contenedor {
+        width: 1000px;
+    }
+}

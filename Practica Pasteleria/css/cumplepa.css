@@ -1,0 +1,158 @@
+@import url(./menu.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Arima', cursive;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    background-color: #000000;
+    color: #ffb9b8;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.contenedor {
+    width: 98%;
+    margin: auto;
+}
+
+header .contenedor {
+    display: table;
+}
+
+h1 {
+    float: left;
+}
+
+section {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+@media (min-width:1024px) {
+    .contenedor {
+        width: 1000px;
+    }
+}
+
+/*Estilo al Catalogo*/
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6em;
+    margin-bottom: 3em;
+
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+}
+
+.item {
+    background-image: linear-gradient(to bottom, #424242 0%, #ffffff 100%);
+    cursor: pointer;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, .095);
+    transition: all 300ms;
+    position: relative;
+}
+
+.item::after {
+    content: "";
+    background-color: rgba(179, 229, 252, .1);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: scale(0);
+    transition: all 300ms;
+    opacity: 0;
+}
+
+.item:hover:after {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.item:hover {
+    transform: scale(1.05);
+}
+
+.item-text {
+    padding: 1em;
+}
+
+.item-text h3 {
+    text-align: center;
+}
+
+.item-img {
+    max-width: 100%;
+    display: block;
+}
+
+@media screen and (min-width: 590px) {
+
+    .container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (min-width: 960px) {
+
+    .container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/*FOOTER*/
+footer .contenedor {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 10px;
+    background-color: #000000;
+    font-size: 15px;
+    color: #ffb9b8;
+}
+
+.copy {
+    font-size: 15px;
+    color:#ffb9b8;
+}
+
+.sociales {
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+}
+
+.sociales a {
+    color: #ffb9b8;
+    text-decoration: none;
+}
+
+/*Responsive*/
+
+@media (min-width:768px) {
+
+    .sociales {
+        width: auto;
+    }
+    
+    footer .contenedor {
+        justify-content:space-evenly;
+    }
+}

@@ -1,0 +1,54 @@
+#info {
+    background-color: #41c0ab;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 20px;
+}
+
+#info .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.info-cake {
+    margin: 20px;
+    cursor: pointer;
+    transition: all 300ms;
+    position: relative;
+    color: rgb(0, 0, 0);
+}
+
+.info-cake h4, a {
+    color: rgb(0, 0, 0);
+}
+
+.info-cake:hover {
+    transform: scale(1.1);
+}
+
+.item-text {
+    padding: 1em;
+    text-align: center;
+}
+
+.info-cake img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 7px solid #ffb9b8;
+}
+
+/*Responsive*/
+
+@media (min-width:480px) {
+    .info-cake {
+        width: 40%;
+    }
+}
+
+@media (min-width:1024px) {
+    .info-cake {
+        width: 25%;
+    }
+}
