@@ -1,4 +1,4 @@
-# Practica Taqueria con HTML y CSS :computer: :taco:
+# Practica Taqueria con HTML :computer: :taco:
 Se solicita una pagina web para un negocio de tacos, el dueño del negocio busca que sus clientes puedan
 comprar sus tacos sin necesidad de ir al restaurante.
 
@@ -10,3 +10,8 @@ comprar sus tacos sin necesidad de ir al restaurante.
 ## Te dejo algunas capturas de pantalla de la pagina web
 
 <img src="./Img/cap1.PNG" alt="Inicio" height="500">
+<img src="./Img/cap2.PNG" alt="Inicio" height="500">
+<img src="./Img/cap3.PNG" alt="Inicio" height="500">
+<img src="./Img/cap4.PNG" alt="Inicio" height="500">
+
+***Te dejo el link directo a la pagina web, vamos vela tu mismo :eyes: :point_right: [LINK]()***
