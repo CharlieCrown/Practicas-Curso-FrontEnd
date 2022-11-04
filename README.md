@@ -11,7 +11,7 @@ La segunda practica del curso esta enfocada a HTML, esto para reforzar lo visto 
 
 ***¡Adelante echale un vistazo! :eyes: :point_right: [VER](./Practica%20Taqueria/README.md)***
 
-## 3.- Practica Club de Perros con HTML y CSS :computer: :dog:
+## 3.- Practica extra Club de Perros con HTML y CSS :computer: :dog:
 Esta es una practica extra, decidi hacerla para practicar y mejorar mis habilidades de CSS, aqui encontraras una pagina web hecha con HTML y CSS creada para un club de perros.
 
 ***¡Adelante echale un vistazo! :eyes: :point_right: [VER](./Practica%20Perritos/README.md)***
