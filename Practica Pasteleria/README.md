@@ -34,15 +34,16 @@ Descripción:
 ***Te dejo el link directo de la pagina web cliente, ¡vamos vela tu mismo! :eyes: :point_right: [LINK]()***
 
 <img src="./img/pa1.PNG" alt="Inicio" height="500">
-<img src="./img/pa2.PNG" alt="Inicio" height="500">
-<img src="./img/pa3.PNG" alt="Inicio" height="500">
-<img src="./img/pa4.PNG" alt="Inicio" height="500">
+<img src="./img/pa2.PNG" alt="Menu" height="500">
+<img src="./img/pa3.PNG" alt="footer" height="500">
+<img src="./img/pa4.PNG" alt="pedidos" height="500">
 
 ### Pastelero
 
 ***Te dejo el link directo de la pagina web pastelero, ¡vamos vela tu mismo! :eyes: :point_right: [LINK]()***
 
 <img src="./img/pas1.PNG" alt="Inicio" height="500">
-<img src="./img/pas2.PNG" alt="Inicio" height="500">
+<img src="./img/pas2.PNG" alt="Inventario" height="500">
+<img src="./img/pas3.PNG" alt="Inventario" height="500">
 
 [Volver al menu &ldca;](../README.md "Regresar a página principal")
