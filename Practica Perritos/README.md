@@ -2,6 +2,8 @@
 Un club de perros solicita una pagina web, quieren tener precencia en el mercado digital y buscan 
 competir contra otros clubs a nivel nacional.
 
+Descripción:
+
 - El sitio tendra una seccion de inicio, esta sera la primer parte de la pagina que aparecera cuando el
 usuario entre al sitio web
 - El sitio tendra un encabezado, que servira para que el usuario pueda navegar dentro de la pagina de una forma
