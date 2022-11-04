@@ -14,6 +14,6 @@ mas comoda
 
 ***Tambien puedes ir al link directo de la pagina web, ¡vamos vela tu mismo! :eyes: :point_right: [LINK]()***
 
-<img src="./Img/club1.PNG" alt="Inicio" height="500">
-<img src="./Img/club2.PNG" alt="Inicio" height="500">
-<img src="./Img/club3.PNG" alt="Inicio" height="500">
+<img src="./img/club1.PNG" alt="Inicio" height="500">
+<img src="./img/club2.PNG" alt="blog" height="500">
+<img src="./img/club3.PNG" alt="footer" height="500">
