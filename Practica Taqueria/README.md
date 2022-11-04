@@ -11,7 +11,7 @@ comprar sus tacos sin necesidad de ir al restaurante.
 
 <img src="./Img/cap1.PNG" alt="Inicio" height="500">
 <img src="./Img/cap2.PNG" alt="Menu" height="500">
-<img src="./Img/cap3.PNG" alt="Ubicacion" height="400">
+<img src="./Img/cap3.PNG" alt="Ubicacion" height="300">
 <img src="./Img/cap4.PNG" alt="Formulario" height="500">
 
 ***Te dejo el link directo a la pagina web, ¡vamos vela tu mismo! :eyes: :point_right: [LINK]()***
