@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tacos el Boss</title>
+    <link rel="stylesheet" href="./CSS/EstiloTacos.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="encabezado">
+            <div>
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#Menu">Menu</a></li>
+                    <li><a href="#Ubicacion">Ubicacion</a></li>
+                    <li><a href="#formulario">Pedidos</a></li>
+                </ul>
+            </div>
+            <div>
+                <h1>TACOS EL "BOSS" DESDE 1998</h1>
+                <img src="./Img/El Boss.png">
+            </div>
+        </div>
+    </header>
+
+    <section class="Inicio">
+        <div>
+            <img src="./Img/taque.jpg">
+            <img src="./Img/Tacos el Boss.png">
+            <img src="./Img/take.jpg">
+        </div>
+    </section>
+
+    <section class="Menu" id="Menu">
+        <h2>Tacos</h2>
+        <div class="container">
+            <div class="item">
+                <img src="./Img/grandes.jpeg" alt="" class="item-img">
+                <div class="item-text">
+                    <h3>GRANDES</h3>
+                    <br>
+                    <p>Todos los tacos incluyen papas o nopales</p>
+                    <br>
+                    <ul>
+                        <li>Bisteck ............................. $20</li>
+                        <li>Longaniza ........................ $20</li>
+                        <li>Pastor .............................. $25</li>
+                        <li>Tripa ................................ $30</li>
+                        <li>Campechano .................... $30</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="./Img/chicos.jpg" alt="" class="item-img">
+                <div class="item-text">
+                    <h3>PEQUEÑOS</h3>
+                    <br>
+                    <p>Todos los tacos incluyen papas o nopales</p>
+                    <br>
+                    <ul>
+                        <li>Bisteck ............................. $15</li>
+                        <li>Longaniza ........................ $15</li>
+                        <li>Pastor .............................. $20</li>
+                        <li>Tripa ................................ $25</li>
+                        <li>Campechano .................... $25</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="./Img/especial.jpg" alt="" class="item-img">
+                <div class="item-text">
+                    <h3>ESPECIALES</h3>
+                    <br>
+                    <p>Todos los tacos incluyen cilantro y cebolla</p>
+                    <br>
+                    <dl>
+                        <dt><b>Labrador .................................. $40</b></dt>
+                        <dd>-Tortilla de maiz con longaniza y frijoles</dd>
+                        <dt><b>Pator Aleman ........................ $40</b></dt>
+                        <dd>-Tortilla de arina con pastor, piña y papas</dd>
+                        <dt><b>Chihuahua .............................. $40</b></dt>
+                        <dd>-Tortilla de maiz o harina con bisteck y quesillo</dd>
+                        <dt><b>El adoptado ............................ $40</b></dt>
+                        <dd>-Tortilla de maiz o harina campechano sin papas</dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="Ubicacion" id="Ubicacion">
+        <div class="tabla">
+            <h2>Ubicacion</h2>
+            <br>
+            <h3>Sucursales</h3>
+            <br>
+            <table class="dir">
+                <tr>
+                    <td>Centro</td>
+                    <td><a href="https://goo.gl/maps/Seh6xvQbUbrvMHxy5" target="_blank">Cuauhtémoc, 06700 Ciudad de
+                            México, CDMX</a></td>
+                    <td>J - D 6:00pm - 3:00am</td>
+                </tr>
+                <tr>
+                    <td>Norte</td>
+                    <td><a href="https://goo.gl/maps/wKBLFxncH6udnYWs6" target="_blank">Gustavo A. Madero, 07760 Ciudad
+                            de México, CDMX</a></td>
+                    <td>J - D 7:00pm - 2:00am</td>
+                </tr>
+                <tr>
+                    <td>Sur</td>
+                    <td><a href="https://goo.gl/maps/5Mt4kRFeSzJ6YKWm8" target="_blank">Huipulco, Tlalpan, 14370 Ciudad
+                            de México, CDMX</a></td>
+                    <td>J - D 7:00pm - 2:00am</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <section class="formulario" id="formulario">
+
+        <form action="">
+            <h1>Pedidos</h1>
+            <div class="datos">
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" id="nombre" placeholder="Ingresa tu nombre">
+
+                <label for="apellido">Apellido</label>
+                <input type="text" name="apellido" id="apellido" placeholder="Ingresa tu apellido">
+
+                <label for="telefono">Telefono</label>
+                <input type="tel" name="telefono" id="telefono" placeholder="Numero de telefono">
+
+                <label for="direccion">Direccion</label>
+                <input type="text" name="direccion" id="direccion" placeholder="Direccion">
+            </div>
+            <div class="pedido">
+                <div>
+                    <p>¿Que taqueria te queda mas cerca?</p>
+                    <select name="Sucursales" id="Sucursales">
+                        <option value="NORTE"> NORTE</option>
+                        <option value="CENTRO"> CENTRO</option>
+                        <option value="SUR"> SUR</option>
+                    </select>
+                </div>
+
+                <div>
+                    <p>¿De que y cuantos tacos va a querer?</p>
+                    <input type="checkbox" id="Bisteck" name="Bisteck" value="Bisteck">
+                    <label for="Bisteck">Bisteck </label>
+                    <input type="number" id="BisteckNumber" name="BisteckNumber" placeholder="¿Cuantos?">
+                    <br>
+                    <input type="checkbox" id="Longaniza" name="Longaniza" value="Longaniza">
+                    <label for="Longaniza">Longaniza</label>
+                    <input type="number" id="LonganizaNumber" name="LonganizaNumber" placeholder="¿Cuantos?">
+                    <br>
+                    <input type="checkbox" id="Pastor" name="Pastor" value="Pastor">
+                    <label for="Pastor">Pastor</label>
+                    <input type="number" id="PastorNumber" name="PastorNumber" placeholder="¿Cuantos?">
+                    <br>
+                    <input type="checkbox" id="Tripa" name="Tripa" value="Tripa">
+                    <label for="Tripa">Tripa</label>
+                    <input type="number" id="TripaNumber" name="TripaNumber" placeholder="¿Cuantos?">
+                    <br>
+                    <input type="checkbox" id="Campechano" name="Campechano" value="Campechano">
+                    <label for="Campechano">Campechano</label>
+                    <input type="number" id="CampechanoNumber" name="CampechanoNumber" placeholder="¿Cuantos?">
+                    <br>
+                </div>
+            </div>
+            <button>ENVIAR</button>
+            <input type="reset" value="RESTABLECER" class="cancelar"></input>
+        </form>
+    </section>
+
+    <footer id="foter">
+        <div>
+            <h1>TACOS EL "BOSS"</h1>
+        </div>
+        <p>
+            &copy; COPYRIGHT 2022 CARLOS CORONA
+        </p>
+    </footer>
+</body>
+
+</html>

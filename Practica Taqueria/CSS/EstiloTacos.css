@@ -1,0 +1,395 @@
+:root {
+  scroll-behavior: smooth;
+  scroll-padding: 80px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+}
+
+/* Header */
+
+header {
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  z-index: 10;
+  margin-bottom: 50px;
+}
+
+.encabezado {
+  pointer-events: auto;
+  display: flex;
+  justify-content: space-between;
+  background-image: linear-gradient(to left, #2e2c2c 0%, #000000 100%);
+  height: 80px;
+}
+
+.encabezado>div {
+  align-self: center;
+  margin: 0 120px;
+  display: flex;
+  align-items: center;
+}
+
+.encabezado div h1 {
+  color: #ffff;
+  font-size: 1.3rem;
+}
+
+.encabezado>div img {
+  width: 100px;
+}
+
+.encabezado ul {
+  padding: 5px 8px;
+}
+
+.encabezado ul li {
+  display: inline-block;
+  list-style: none;
+  transition: transform .3s ease-out;
+}
+
+.encabezado ul li a {
+  text-decoration: none;
+  color: #ffff;
+  padding: 10px 16px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  transition: color .3s ease-out;
+}
+
+ul li a:hover {
+  color: rgb(145, 145, 145);
+}
+
+ul li:hover {
+  transform: scale(1.1);
+}
+
+/* Inicio */
+
+.Inicio {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  position: relative;
+  background-image: linear-gradient(to top, #424242 0%, #ffffff 100%);
+}
+
+.Inicio img {
+  position: center;
+  width: 400px;
+}
+
+.Inicio>div {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 7em;
+  margin-bottom: 3em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+/* Menu */
+
+.Menu {
+  padding: 50px 0;
+  background-image: linear-gradient(to top, #7c8132 0%, #ffffff 100%);
+}
+
+.Menu h2 {
+  color: #000000;
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  font-weight: lighter;
+}
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3em;
+  margin-bottom: 3em;
+
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 50px;
+}
+
+.item {
+  background-image: linear-gradient(to bottom, #424242 0%, #ffffff 100%);
+  cursor: pointer;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, .095);
+  transition: all 300ms;
+  position: relative;
+}
+
+.item::after {
+  content: "";
+  background-color: rgba(179, 229, 252, .1);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: scale(0);
+  transition: all 300ms;
+  opacity: 0;
+}
+
+.item:hover:after {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.item:hover {
+  transform: scale(1.05);
+}
+
+.item-text {
+  padding: 1em;
+  text-align: center;
+}
+
+.item-img {
+  max-width: 100%;
+  display: block;
+}
+
+@media screen and (min-width: 500px) {
+
+  .container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media screen and (min-width: 500px) {
+
+  .container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/*Ubicacion*/
+
+.Ubicacion {
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(to top, #424242 0%, #ffffff 100%);
+  color: #000000;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: lighter;
+}
+
+.dir {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+.dir a {
+  color: #03055f;
+}
+
+/*Formulario*/
+
+.formulario {
+  height: 110vh;
+  background-image: linear-gradient(to top, #7c8132 0%, #ffffff 100%);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 50%;
+  color: rgb(0, 0, 0);
+  margin: auto;
+}
+
+.formulario h1 {
+  place-self: center;
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: 600;
+  grid-column: 1/3;
+}
+
+form>div {
+  width: 100%;
+  padding: 18px;
+}
+
+
+form .datos label {
+  margin-left: 20px;
+  font-size: calc(1.2rem*1.1);
+}
+
+form .datos input {
+  width: 100%;
+  outline: none;
+  border: none;
+  margin-bottom: 30px;
+  padding: 16px 15px;
+  font-size: 1rem;
+  border-radius: 100px;
+}
+
+form .datos input:focus {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+form .pedido {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+form .pedido label {
+  margin-left: 20px;
+  font-size: calc(1.2rem*1.1);
+}
+
+form .pedido input {
+  width: 100%;
+  outline: none;
+  border: none;
+  margin-bottom: 5px;
+  padding: 8px 5px;
+  font-size: 1rem;
+  border-radius: 100px;
+}
+
+form .pedido input:focus {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+form .pedido div {
+  width: 290px;
+}
+
+form .pedido p {
+  font-size: calc(1.2rem*1.1);
+}
+
+form .pedido select {
+  padding: 8px 10px;
+  border: none;
+  border-radius: 100px;
+  font-size: .9rem;
+  cursor: pointer;
+  background-color: rgb(255, 255, 255, 0.9);
+}
+
+form .pedido input[type="checkbox"]+label:before {
+  content: "";
+  width: 15px;
+  height: 15px;
+  float: left;
+  margin: 0.5em 0.5em 0 0;
+  border: 2px solid #ccc;
+  background: #fff;
+}
+
+form .pedido input[type="checkbox"]:checked+label:before {
+  border-color: #076808;
+}
+
+form .pedido input[type="checkbox"]:checked+label:after {
+  content: "";
+  width: 8px;
+  height: 4px;
+  border: 4px solid #076808;
+  float: left;
+  margin-left: -1.3em;
+  border-right: 0;
+  border-top: 0;
+  margin-top: 0.7em;
+  transform: rotate(-55deg);
+}
+
+form .pedido input[type="checkbox"] {
+  display: none;
+}
+
+form .pedido input[type="checkbox"]+label {
+  font-weight: bold;
+  line-height: 1.5em;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+form .pedido input[type="checkbox"]:checked+label {
+  color: #076808;
+}
+
+button,
+.cancelar {
+  grid-column: 1/3;
+  width: 40%;
+  margin: auto;
+  padding: 8px 0;
+  cursor: pointer;
+  border: none;
+  border-radius: 100px;
+  font-size: 1.2rem;
+  background-color: #ffff;
+  margin-bottom: 10px;
+}
+
+.cancelar {
+  background-color: rgb(255, 255, 255);
+  width: 30%;
+  margin: auto;
+  padding: 8px 0;
+  color: rgb(0, 0, 0);
+}
+
+.cancelar:hover {
+  background-color: rgb(116, 55, 55);
+  transform: scale(1.1);
+}
+
+button:hover {
+  background-color: rgb(47, 110, 58);
+  transform: scale(1.1);
+}
+
+/* Footer */
+footer {
+  width: 100%;
+  background-image: linear-gradient(to right, #2e2c2c 0%, #000000 100%);
+  color: rgb(255, 255, 255);
+}
+
+footer>div {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 5px 0;
+  font-size: 0.5rem;
+}
+
+footer>p {
+  border-top: 1px solid;
+  width: 100%;
+  text-align: center;
+  padding: 5px 0;
+  font-size: 0.7rem;
+}
