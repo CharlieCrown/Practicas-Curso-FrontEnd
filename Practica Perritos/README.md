@@ -17,3 +17,5 @@ mas comoda
 <img src="./img/club1.PNG" alt="Inicio" height="500">
 <img src="./img/club2.PNG" alt="blog" height="500">
 <img src="./img/club3.PNG" alt="footer" height="500">
+
+[Volver al menu &ldca;](../README.md "Regresar a página principal")

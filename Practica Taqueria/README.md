@@ -15,3 +15,5 @@ comprar sus tacos sin necesidad de ir al restaurante.
 <img src="./Img/cap2.PNG" alt="Menu" height="500">
 <img src="./Img/cap3.PNG" alt="Ubicacion" height="350">
 <img src="./Img/cap4.PNG" alt="Formulario" height="500">
+
+[Volver al menu &ldca;](../README.md "Regresar a página principal")
