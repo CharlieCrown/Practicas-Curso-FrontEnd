@@ -31,7 +31,7 @@ Descripción:
 
 ### Cliente
 
-***Te dejo el link directo de la pagina web cliente, ¡vamos vela tu mismo! :eyes: :point_right: [LINK]()***
+***Te dejo el link directo de la pagina web cliente, ¡vamos vela tu mismo! :eyes: :point_right: [LINK](https://charliecrown.github.io/Morry-Cake/)***
 
 <img src="./img/pa1.PNG" alt="Inicio" height="500">
 <img src="./img/pa2.PNG" alt="Menu" height="500">
@@ -40,7 +40,7 @@ Descripción:
 
 ### Pastelero
 
-***Te dejo el link directo de la pagina web pastelero, ¡vamos vela tu mismo! :eyes: :point_right: [LINK]()***
+***Te dejo el link directo de la pagina web pastelero, ¡vamos vela tu mismo! :eyes: :point_right: [LINK](https://charliecrown.github.io/Morry-Cake/pastelero.html)***
 
 <img src="./img/pas1.PNG" alt="Inicio" height="500">
 <img src="./img/pas2.PNG" alt="Inventario" height="500">
