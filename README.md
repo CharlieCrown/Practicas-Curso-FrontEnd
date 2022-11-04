@@ -7,6 +7,6 @@ La primer practica del curso esta enfocada al diseño y toma de requerimientos p
 ***¡Adelante echale un vistazo! :eyes: :point_right: [VER](./Practica%20Dise%C3%B1o/README.md)***
 
 ## 2.- Practica Taqueria con HTML y CSS :computer: :taco:
-La segunda practica del curso esta enfocada a HTML y un poco de CSS, esto para reforzar lo visto en el curso, aqui encontraras una pagina web hecha con HTML y CSS creada para una taqueria.
+La segunda practica del curso esta enfocada a HTML, esto para reforzar lo visto en el curso, aqui encontraras una pagina web hecha con HTML y un poco de CSS creada para una taqueria.
 
 ***¡Adelante echale un vistazo! :eyes: :point_right: [VER](./Practica%20Taqueria/README.md)***
