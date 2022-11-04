@@ -10,7 +10,6 @@ usuario entre al sitio web
 mas comoda
 - Tambien tendra una seccion de blog, donde se mostraran las diferentes actividades que ofrece el club
 - Por ultimo se requiere que el sitio cuente con un footer, donde se muestren las redes sociales del club 
-- El sitio debe ser responsive
 
 ## Te dejo algunas capturas de pantalla de la pagina web
 
