@@ -21,3 +21,10 @@ Esta es una practica extra, decidi hacerla para practicar y mejorar mis habilida
 ***¡Adelante echale un vistazo! :eyes: :point_right: [VER](./Practica%20Perritos/README.md)***
 
 <img src="./IMG/logodog.jpg" alt="LogoDog" height="300">
+
+## 4.- Practica Pasteleria con HTML y CSS :computer: :birthday:
+Para la siguiente practica del curso, se pondran en practica los conocimientos aprendidos de HTML y CSS, aqui encontraras una pagina web creada a un pastelero, esta hecha con HTML, CSS y ademas es responsive. 
+
+***¡Adelante echale un vistazo! :eyes: :point_right: [VER](./Practica%20Pasteleria/README.md)***
+
+<img src="./IMG/logomorry.png" alt="LogoMorryCake" height="300">
