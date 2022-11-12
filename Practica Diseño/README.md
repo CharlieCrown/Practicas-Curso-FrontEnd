@@ -38,7 +38,7 @@ Diagrama de Flujo
 
 <img src="./Img/BuyerPersona.png" alt="BuyerPersona" height="600">
 
-## Publico Objetivo :family_man_woman_boy:
+## Público Objetivo :family_man_woman_boy:
 
 <img src="./Img/PublicoObjetivo.jpg" alt="PublicoObjetivo" height="600">
 
@@ -54,4 +54,4 @@ Diagrama de Flujo
 
 ***Te dejo el link directo a "Figma" para que puedas ver con mayor detalle el UI :eyes: :point_right: [LINK](https://www.figma.com/file/foYesV5WCekGSxL832I3ya/UI-Restaurante?node-id=0%3A1)***
 
-[Volver al menu &ldca;](../README.md "Regresar a página principal")
+[Volver al menú &ldca;](../README.md "Regresar a página principal")
