@@ -1,0 +1,337 @@
+#contact {
+    width: 100%;
+    display: inline-flex;
+}
+
+#contact .nurse3 {
+    display: none;
+}
+
+#contact .contenedor9 {
+    display: none;
+}
+
+#contact .contenedor10 {
+    width: 60%;
+    justify-content: center;
+}
+
+#contact .contenedor10 h1 {
+    font-weight: bold;
+    color: rgb(11, 49, 83);
+    margin-top: 90px;
+    margin-left: 90px;
+    font-size: 40px;
+    margin-top: 150px;
+}
+
+#contact .contenedor10 p {
+    color: rgb(85, 85, 85);
+    margin-top: 50px;
+    margin-left: 80px;
+    font-size: 22px;
+    line-height: 30px;
+    margin-bottom: 70px;
+}
+
+#contact .box2 {
+    display: none;
+}
+
+#contact .contenedor10 .box {
+    display: inline-flex;
+    margin-left: 120px;
+    margin-bottom: 35px;
+}
+
+#contact .contenedor10 .box-info {
+    background-color: rgb(255, 255, 255);
+    width: 41%;
+    margin-right: 80px;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 4px 0 rgba(31, 38, 135, 0.37);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+
+}
+
+#contact .contenedor10 .box-info .text-infor {
+    display: inline-flex;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+#contact .contenedor10 .box-info .text-infor i {
+    color: #1d3dbe;
+    height: 40px;
+    font-size: 35px;
+    padding: 10px 10px 10px 10px;
+    box-shadow: 0px 15px rgb(255, 217, 0, 0.05);
+    background-color: rgb(15, 59, 98, 0.1);
+    border-radius: 10px;
+}
+
+#contact .contenedor10 .box-info .text-infor p {
+    color: rgb(15, 59, 98);
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 1px;
+    margin-left: 25px;
+
+}
+
+#contact .contenedor10 .box-info .text-infor span {
+    color: rgb(85, 85, 85);
+    margin-left: 1px;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+#contact .contenedor10 .box-info button {
+    color: #1d3dbe;
+    font-size: 15px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0);
+    box-shadow: rgb(19, 73, 236, 0.9);
+    margin-left: 45px;
+    margin-bottom: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 8%;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    cursor: pointer;
+    transition: all 300ms;
+}
+
+#contact .contenedor10 .box-info button:hover {
+    color: rgb(255, 255, 255);
+    background-color: #1d3dbe;
+    transform: scale(1.1);
+}
+
+#contact .contenedor10 .box-info .pop1 {
+    color: #1d3dbe;
+    font-size: 15px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0);
+    box-shadow: rgb(19, 73, 236, 0.9);
+    margin-left: 32px;
+    margin-bottom: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 8%;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    cursor: pointer;
+    transition: all 300ms;
+}
+
+#contact .contenedor10 .box-info .pop1:hover {
+    color: rgb(255, 255, 255);
+    background-color: #1d3dbe;
+    transform: scale(1.1);
+}
+
+#contact .contenedor10 .box-info .pop2 {
+    color: #1d3dbe;
+    font-size: 15px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0);
+    box-shadow: rgb(19, 73, 236, 0.9);
+    margin-left: 32px;
+    margin-bottom: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 8%;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    cursor: pointer;
+    transition: all 300ms;
+}
+
+#contact .contenedor10 .box-info .pop2:hover {
+    color: rgb(255, 255, 255);
+    background-color: #1d3dbe;
+    transform: scale(1.1);
+}
+
+#contact .nurse4 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10em;
+    margin-right: 0;
+    max-width: 50vw;
+    padding-top: 20px;
+    background: linear-gradient(270deg, rgba(53, 113, 207, 1) 0%, rgba(46, 137, 226, 1) 47%, rgba(95, 193, 255, 1) 100%);
+}
+
+/*Responsive*/
+
+@media only screen and (max-width: 600px) {
+
+    #contact {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    #contact .contenedor9 {
+        display: block;
+        width: 100%;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #contact .contenedor9 h1 {
+        font-weight: bold;
+        color: rgb(11, 49, 83);
+        margin-top: 90px;
+        margin-left: 20px;
+        font-size: 30px;
+        margin-top: 40px;
+    }
+
+    #contact .contenedor9 p {
+        color: rgb(85, 85, 85);
+        margin-top: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 18px;
+        line-height: 30px;
+        margin-bottom: 10px;
+        text-align: justify;
+    }
+
+    #contact .contenedor10 h1 {
+        display: none;
+    }
+
+    #contact .contenedor10 p {
+        display: none;
+    }
+
+    #contact .nurse4 {
+        display: none;
+    }
+
+    #contact .nurse3 {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 3em;
+        margin-left: 0em;
+        max-width: 100vw;
+        padding-top: 20px;
+        margin-bottom: 1em;
+        background: linear-gradient(270deg, rgba(53, 113, 207, 1) 0%, rgba(46, 137, 226, 1) 47%, rgba(95, 193, 255, 1) 100%);
+    }
+
+    #contact .nurse3 img {
+        margin-left: -4em;
+    }
+
+    #contact .contenedor10 .box {
+        display: none;
+    }
+
+    #contact .box2 {
+        width: 100%;
+        display: block;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #contact .box2 .box-info {
+        width: 80%;
+        display: block;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: rgb(255, 255, 255);
+        background: rgba(255, 255, 255, 0.1);
+        box-shadow: 0 4px 4px 0 rgba(31, 38, 135, 0.37);
+        border-radius: 10px;
+        border: 1px solid rgba(255, 255, 255, 0.18);
+    }
+
+    #contact .box2 .box-info:hover {
+        background-color: rgb(200, 209, 240);
+        transform: scale(1.1);
+    }
+
+    #contact .box2 .box-info .text-infor {
+        width: 85%;
+        display: block;
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 9px;
+    }
+
+    #contact .box2 .box-info .text-infor i {
+        color: #1d3dbe;
+        margin-right: 10px;
+        font-size: 35px;
+        padding: 10px 10px 10px 10px;
+        box-shadow: 0px 15px rgb(255, 217, 0, 0.05);
+        background-color: rgb(15, 59, 98, 0.1);
+        border-radius: 10px;
+    }
+
+    #contact .box2 .box-info .text-infor p {
+        color: rgb(15, 59, 98);
+        font-weight: bold;
+        font-size: 17px;
+
+    }
+
+    #contact .box2 .box-info .text-infor span {
+        color: rgb(85, 85, 85);
+        font-size: 15px;
+        font-weight: lighter;
+    }
+
+    #contact .box2 .box-info button {
+        width: 100%;
+        display: block;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 2px;
+        padding-right: 2px;
+        margin-left: 65px;
+        margin-right: 5px;
+        color: #1d3dbe;
+        font-size: 15px;
+        background-color: rgb(255, 255, 255);
+        border: 1px solid rgba(255, 255, 255, 0);
+        box-shadow: rgb(19, 73, 236, 0.9);
+        border-radius: 8%;
+        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    }
+
+    #contact .box2 .box-info button:hover {
+        color: rgb(255, 255, 255);
+        background-color: #1d3dbe;
+        transform: scale(1.1);
+    }
+
+}

@@ -1,0 +1,354 @@
+#info {
+    width: 100%;
+}
+
+#info h1 {
+    font-weight: bold;
+    color: rgb(11, 49, 83);
+    margin-top: 20px;
+    margin-left: 140px;
+    font-size: 40px;
+}
+
+#info p {
+    color: rgb(85, 85, 85);
+    margin-top: 50px;
+    margin-left: 135px;
+    font-size: 22px;
+    line-height: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    #info {
+        width: 100%;
+    }
+
+    #info h1 {
+        font-weight: bold;
+        color: rgb(11, 49, 83);
+        margin-top: 10px;
+        margin-left: 10px;
+        font-size: 30px;
+    }
+
+    #info p {
+        color: rgb(85, 85, 85);
+        margin-top: 20px;
+        margin-left: 15px;
+        margin-right: 15px;
+        font-size: 20px;
+        line-height: 1.4;
+        text-align: justify;
+    }
+}
+
+/*Tips*/
+
+#tips {
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 45px;
+}
+
+#tips .contenedor3 {
+    background-color: rgb(255, 255, 255);
+    width: 18%;
+    background: rgba(255, 255, 255, 0.65);
+    box-shadow: 0 2px 12px 0 rgba(31, 38, 135, 0.37);
+    border-radius: 7px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    cursor: pointer;
+    transition: all 300ms;
+}
+
+#tips .contenedor3:hover {
+    background-color: rgb(158, 170, 212);
+    transform: scale(1.1);
+}
+
+#tips .contenedor3 i {
+    margin-left: 15px;
+    margin-top: 15px;
+    font-size: 25px;
+    color: #1d3dbe;
+    padding: 10px 10px 10px 10px;
+    box-shadow: 0px 15px rgb(255, 217, 0, 0.05);
+    background-color: rgb(15, 59, 98, 0.1);
+    border-radius: 10px;
+}
+
+#tips .contenedor3 h1 {
+    margin-top: 15px;
+    margin-left: 15px;
+    font-size: 18px;
+    color: rgb(11, 49, 83);
+}
+
+#tips .contenedor3 p {
+    margin-top: 15px;
+    margin-left: 15px;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+#tips .contenedor4 {
+    background-color: rgb(255, 255, 255);
+    width: 18%;
+    margin-left: 50px;
+    background: rgba(255, 255, 255, 0.65);
+    box-shadow: 0 2px 12px 0 rgba(31, 38, 135, 0.37);
+    border-radius: 7px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    cursor: pointer;
+    transition: all 300ms;
+}
+
+#tips .contenedor4:hover {
+    background-color: rgb(158, 170, 212);
+    transform: scale(1.1);
+}
+
+#tips .contenedor4 i {
+    margin-left: 15px;
+    margin-top: 15px;
+    font-size: 25px;
+    color: #1d3dbe;
+    padding: 10px 10px 10px 10px;
+    box-shadow: 0px 15px rgb(255, 217, 0, 0.05);
+    background-color: rgb(15, 59, 98, 0.1);
+    border-radius: 10px;
+}
+
+#tips .contenedor4 h1 {
+    margin-top: 15px;
+    margin-left: 15px;
+    font-size: 18px;
+    color: rgb(11, 49, 83);
+}
+
+#tips .contenedor4 p {
+    margin-top: 15px;
+    margin-left: 15px;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+#tips .contenedor5 {
+    background-color: rgb(255, 255, 255);
+    width: 18%;
+    margin-left: 50px;
+    background: rgba(255, 255, 255, 0.65);
+    box-shadow: 0 2px 12px 0 rgba(31, 38, 135, 0.37);
+    border-radius: 7px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    cursor: pointer;
+    transition: all 300ms;
+
+}
+
+#tips .contenedor5:hover {
+    background-color: rgb(158, 170, 212);
+    transform: scale(1.1);
+}
+
+#tips .contenedor5 i {
+    margin-left: 15px;
+    margin-top: 15px;
+    font-size: 25px;
+    color: #1d3dbe;
+    padding: 10px 10px 10px 10px;
+    box-shadow: 0px 15px rgb(255, 217, 0, 0.05);
+    background-color: rgb(15, 59, 98, 0.1);
+    border-radius: 10px;
+}
+
+#tips .contenedor5 h1 {
+    margin-top: 15px;
+    margin-left: 15px;
+    font-size: 18px;
+    color: rgb(11, 49, 83);
+}
+
+#tips .contenedor5 p {
+    margin-top: 15px;
+    margin-left: 15px;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+#tips .contenedor6 {
+    background-color: rgb(255, 255, 255);
+    width: 18%;
+    margin-left: 50px;
+    background: rgba(255, 255, 255, 0.65);
+    box-shadow: 0 2px 12px 0 rgba(31, 38, 135, 0.37);
+    border-radius: 7px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    cursor: pointer;
+    transition: all 300ms;
+}
+
+#tips .contenedor6:hover {
+    background-color: rgb(158, 170, 212);
+    transform: scale(1.1);
+}
+
+#tips .contenedor6 i {
+    margin-left: 15px;
+    margin-top: 15px;
+    font-size: 25px;
+    color: #1d3dbe;
+    padding: 10px 10px 10px 10px;
+    box-shadow: 0px 15px rgb(255, 217, 0, 0.05);
+    background-color: rgb(15, 59, 98, 0.1);
+    border-radius: 10px;
+}
+
+#tips .contenedor6 h1 {
+    margin-top: 15px;
+    margin-left: 15px;
+    font-size: 18px;
+    color: rgb(11, 49, 83);
+}
+
+#tips .contenedor6 p {
+    margin-top: 15px;
+    margin-left: 15px;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+    #tips {
+        width: 100%;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-top: 45px;
+    }
+
+    #tips .contenedor3 {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 25px;
+    }
+
+    #tips .contenedor3 i {
+        margin-left: 15px;
+        margin-top: 15px;
+        font-size: 25px;
+        padding: 10px 10px 10px 10px;
+    }
+
+    #tips .contenedor3 h1 {
+        margin-top: 15px;
+        margin-left: 15px;
+        font-size: 18px;
+    }
+
+    #tips .contenedor3 p {
+        margin-top: 15px;
+        margin-left: 15px;
+        margin-right: 15px;
+        font-size: 14px;
+        margin-bottom: 15px;
+        text-align: justify;
+    }
+
+
+    #tips .contenedor4 {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 25px;
+    }
+
+    #tips .contenedor4 i {
+        margin-left: 15px;
+        margin-top: 15px;
+        font-size: 25px;
+        padding: 10px 10px 10px 10px;
+    }
+
+    #tips .contenedor4 h1 {
+        margin-top: 15px;
+        margin-left: 15px;
+        font-size: 18px;
+    }
+
+    #tips .contenedor4 p {
+        margin-top: 15px;
+        margin-left: 15px;
+        margin-right: 15px;
+        text-align: justify;
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+
+
+    #tips .contenedor5 {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 25px;
+
+    }
+
+    #tips .contenedor5 i {
+        margin-left: 15px;
+        margin-top: 15px;
+        font-size: 25px;
+        padding: 10px 10px 10px 10px;
+    }
+
+    #tips .contenedor5 h1 {
+        margin-top: 15px;
+        margin-left: 15px;
+        font-size: 18px;
+    }
+
+    #tips .contenedor5 p {
+        margin-top: 15px;
+        margin-left: 15px;
+        margin-right: 15px;
+        text-align: justify;
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+
+
+    #tips .contenedor6 {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 25px;
+    }
+
+    #tips .contenedor6 i {
+        margin-left: 15px;
+        margin-top: 15px;
+        font-size: 25px;
+        padding: 10px 10px 10px 10px;
+    }
+
+    #tips .contenedor6 h1 {
+        margin-top: 15px;
+        margin-left: 15px;
+        font-size: 18px;
+    }
+
+    #tips .contenedor6 p {
+        margin-top: 15px;
+        margin-left: 15px;
+        margin-right: 15px;
+        text-align: justify;
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+}

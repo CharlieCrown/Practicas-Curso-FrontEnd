@@ -1,0 +1,322 @@
+@import url(./menu.css);
+@import url(./inicio.css);
+@import url(./vacuna.css);
+@import url(./info.css);
+@import url(./tips2.css);
+@import url(./contact.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.747);
+    color: #7f8b91;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.contenedor {
+    width: 98%;
+    margin: auto;
+}
+
+header .contenedor {
+    display: table;
+}
+
+.contenedor h1 {
+    float: left;
+    color: #1d3dbe;
+}
+
+section {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+/*Responsive*/
+
+@media (min-width:1024px) {
+    .contenedor {
+        width: 1000px;
+    }
+}
+
+/*Imagen de las Marcas*/
+
+#marcas img {
+    width: 100%;
+    height: auto;
+    margin-top: 0px;
+    background-size: cover;
+    background-position: center;
+}
+
+/*FOOTER*/
+
+footer {
+    width: 100%;
+    padding-top: 30px;
+    margin-top: 100px;
+    background-color: rgb(240, 241, 255);
+}
+
+footer .contenedor11 {
+    width: 100%;
+    display: inline-flex;
+}
+
+footer .vacci {
+    width: 50%;
+    margin-left: 100px;
+}
+
+footer .vacci h1 {
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 25px;
+    color: #1d3dbe;
+}
+
+footer .vacci p {
+    color: rgb(85, 85, 85);
+    margin-top: 15px;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+footer .info-foot {
+    display: inline-flex;
+    width: 50%;
+    line-height: 50px;
+}
+
+footer .info-foot .t1 ul {
+    margin-right: 100px;
+    list-style: none;
+    font-weight: lighter;
+    cursor: pointer;
+    transition: all 300ms;
+}
+
+footer .info-foot .t1 h1 {
+    margin-top: 11px;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(11, 49, 83);
+}
+
+footer .contenedor11 .info-foot .t1 ul li:hover {
+    color: #1d3dbe;
+    transform: scale(1.1);
+}
+
+footer .info-foot .t2 ul {
+    margin-right: 100px;
+    list-style: none;
+    font-weight: lighter;
+    cursor: pointer;
+    transition: all 300ms;
+}
+
+footer .info-foot .t2 h1 {
+    margin-top: 11px;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(11, 49, 83);
+}
+
+footer .contenedor11 .info-foot .t2 ul li:hover {
+    color: #1d3dbe;
+    transform: scale(1.1);
+}
+
+footer .info-foot .t3 ul {
+    margin-right: 60px;
+    list-style: none;
+    font-weight: lighter;
+    cursor: pointer;
+    transition: all 300ms;
+}
+
+footer .info-foot .t3 h1 {
+    margin-top: 11px;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(11, 49, 83);
+}
+
+footer .contenedor11 .info-foot .t3 ul li:hover {
+    color: #1d3dbe;
+    transform: scale(1.1);
+}
+
+footer .arriba .info-foot .t1 .t-info {
+    display: none;
+}
+
+footer .arriba .info-foot .t2 .t-info {
+    display: none;
+}
+
+footer .arriba .info-foot .t3 .t-info {
+    display: none;
+}
+
+footer .contenedor12 {
+    width: 100%;
+    margin-top: 50px;
+    background-color: rgb(240, 241, 255);
+    display: inline-flex;
+    margin-bottom: 10px;
+}
+
+footer .contenedor12 .pop3 {
+    margin-left: 100px;
+    font-weight: bold;
+    color: rgb(167, 167, 167);
+}
+
+footer .contenedor12 .pop4 {
+    margin-left: 600px;
+    font-weight: bold;
+    color: rgb(167, 167, 167);
+}
+
+footer .contenedor12 .pop4:hover {
+    color: #1d3dbe;
+    cursor: pointer;
+    transition: all 300ms;
+    transform: scale(1.1);
+}
+
+/*RESPONSIVE*/
+
+@media only screen and (max-width: 600px) {
+    footer .contenedor11 {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: left;
+        padding: 0px;
+    }
+
+    footer .contenedor11 .vacci {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+    }
+
+    footer .contenedor11 .vacci h1 {
+        width: 100%;
+        padding-left: 20px;
+        margin-right: auto;
+        margin-top: 0px;
+        font-weight: bold;
+        font-size: 35px;
+        color: rgb(11, 49, 83);
+    }
+
+    footer .contenedor11 .vacci p {
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 10px;
+        color: rgb(85, 85, 85);
+        font-size: 22px;
+        text-align: justify;
+        line-height: 1.5;
+    }
+
+    footer .contenedor11 .info-foot {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: left;
+        margin-left: 44px;
+        margin-right: 0px;
+    }
+
+    footer .contenedor11 .info-foot .t1 {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    footer .contenedor11 .info-foot .t1 .t-info {
+        width: 100%;
+        height: 10px;
+        background-color: #1d3dbe;
+        border-radius: 40px;
+        display: block;
+    }
+
+    footer .contenedor11 .info-foot .t1 ul {
+        font-weight: 400;
+    }
+
+    footer .contenedor11 .info-foot .t2 .t-info {
+        width: 100%;
+        height: 10px;
+        background-color: #1d3dbe;
+        border-radius: 40px;
+        display: block;
+    }
+
+    footer .contenedor11 .info-foot .t2 ul {
+        font-weight: 400;
+    }
+
+    footer .contenedor11 .info-foot .t3 .t-info {
+        width: 100%;
+        height: 10px;
+        background-color: #1d3dbe;
+        border-radius: 40px;
+        display: block;
+    }
+
+    footer .contenedor11 .info-foot .t3 ul {
+        font-weight: 400;
+    }
+
+    footer .contenedor12 {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding: 0;
+    }
+
+    footer .contenedor12 .pop3 {
+        width: 90%;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 5px;
+        padding: 0;
+        font-weight: bold;
+        color: rgb(167, 167, 167);
+    }
+
+    footer .contenedor12 .pop4 {
+        width: 90%;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding: 0;
+        font-weight: bold;
+        color: rgb(167, 167, 167);
+    }
+}
