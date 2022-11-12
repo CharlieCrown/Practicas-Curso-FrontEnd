@@ -20,11 +20,11 @@ Bonus:
 
 ***Tambien te dejo el link directo de la pagina web, ¡vamos vela tu mismo! :eyes: :point_right: [LINK]()***
 
-<img src="./img/va1.PNG" alt="Inicio" height="500">
-<img src="./img/va2.PNG" alt="Vacuna" height="500">
-<img src="./img/va3.PNG" alt="Cards" height="500">
-<img src="./img/va4.PNG" alt="Tips" height="500">
-<img src="./img/va5.PNG" alt="Call" height="500">
-<img src="./img/va6.PNG" alt="Footer" height="500">
+<img src="./Img/va1.PNG" alt="Inicio" height="500">
+<img src="./Img/va2.PNG" alt="Vacuna" height="500">
+<img src="./Img/va3.PNG" alt="Cards" height="500">
+<img src="./Img/va4.PNG" alt="Tips" height="500">
+<img src="./Img/va5.PNG" alt="Call" height="500">
+<img src="./Img/va6.PNG" alt="Footer" height="500">
 
 [Volver al menu &ldca;](../README.md "Regresar a página principal")
