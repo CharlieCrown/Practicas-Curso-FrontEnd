@@ -13,3 +13,5 @@ Gracias al curso de LaunchX/FrontEnd y al taller de GitHub, es que pude realizar
 
 <img src="./Image/sp1.PNG" alt="Inicio" height="500">
 <img src="./Image/sp2.PNG" alt="Fin" height="500">
+
+[Volver al menu &ldca;](../README.md "Regresar a página principal")

@@ -35,3 +35,10 @@ En esta practica se nesecito replicar una pagina web ya creada sobre la vacuna c
 ***¡Adelante echale un vistazo! :eyes: :point_right: [VER](./Practica%20Vaccination/README.md)***
 
 <img src="./IMG/va1.PNG" alt="Vaccination1" height="300">
+
+## 7.- Proyecto Hackathon GitHub :computer: :rocket:
+Para el Hackathon de Github, realize un clon de spotify, maquetado con HTML y CSS, el proyecto aun no esta terminado, ya que mi siguiente reto es trabajar con JavaScript y asi tener una pagina web dinamica.
+
+***¡Adelante echale un vistazo! :eyes: :point_right: [VER](./Practica%20Spotify/README.md)***
+
+<img src="./IMG/sp1.PNG" alt="Spotify" height="300">
