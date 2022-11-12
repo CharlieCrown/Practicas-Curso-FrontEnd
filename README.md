@@ -32,6 +32,6 @@ Para la siguiente practica del curso, se pondran en practica los conocimientos a
 ## 5.- Practica Vaccination con HTML y CSS :computer: :syringe:
 En esta practica se nesecito replicar una pagina web ya creada sobre la vacuna contra el COVID 19, esto para demostrar lo aprendido en el curso hasta el momento sobre todo la parte del CSS, pagina web maquetada con HTML y CSS.
 
-***¡Adelante echale un vistazo! :eyes: :point_right: [VER](./Practica%20Vaccination/README)***
+***¡Adelante echale un vistazo! :eyes: :point_right: [VER](./Practica%20Vaccination/README.md)***
 
 <img src="./IMG/va1.PNG" alt="Vaccination1" height="300">
