@@ -24,7 +24,7 @@ Bonus:
 
 ## Te dejo una captura de pantalla de la pokedex
 
-***También puedes ir al link directo de la pokedex, ¡vamos vela tú mismo! :eyes: :point_right: [LINK]()***
+***También puedes ir al link directo de la pokedex, ¡vamos vela tú mismo! :eyes: :point_right: [LINK](https://charliecrown.github.io/POKEDEX/)***
 
 <img src="./IMG/poke1.PNG" alt="Inicio" height="500">
 
