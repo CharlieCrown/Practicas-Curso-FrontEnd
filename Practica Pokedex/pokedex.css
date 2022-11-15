@@ -1,0 +1,851 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./IMG/pokefondo.jpg);
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*MUSICA*/
+
+.music {
+    height: 400px;
+    width: 500px;
+    position: absolute;
+}
+
+/*Contenedores principales*/
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.container .pokedex {
+    position: relative;
+    display: flex;
+    width: 400px;
+    height: 550px;
+    justify-content: center;
+    perspective: 1000px;
+    border: none !important;
+    transition: all 0.2s ease-in-out;
+}
+
+.container .pokedex:hover {
+    width: 800px;
+    transition: all 0.2s ease-in-out;
+}
+
+.container .pokedex .poke-izquierda,
+.container .pokedex .poke-derecha {
+    width: 400px;
+    height: 100%;
+    border-radius: 10px;
+    position: absolute;
+    box-sizing: border-box;
+}
+
+.container .pokedex .poke-izquierda {
+    left: 0;
+    background-color: #990000;
+}
+
+.container .pokedex .poke-derecha {
+    background-color: transparent;
+    height: 450px;
+    right: 0;
+    bottom: 0;
+    border-radius: 0 0 0 10px;
+    perspective: 10000px;
+    z-index: 100;
+}
+
+/*Contenedor izquierda*/
+
+.pokedex .poke-izquierda .contenido {
+    white-space: inherit;
+    width: 100%;
+    height: 100px;
+    box-sizing: border-box;
+    border-bottom: 5px solid rgba(0, 0, 0, 0.5);
+}
+
+/*Contenedor izquierda circulos decorativos*/
+
+.pokedex .poke-izquierda .contenido .circulo-a {
+    height: 70px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: white;
+    top: 15px;
+    left: 40px;
+    border-radius: 50%;
+}
+
+.pokedex .poke-izquierda .contenido .circulo-a .circulo-b {
+    width: 85%;
+    height: 85%;
+    border-radius: 50%;
+    background-color: #0299cf;
+}
+
+.pokedex .poke-izquierda .contenido .circulo-a .circulo-b .circulo-c {
+    width: 65%;
+    height: 65%;
+    top: 10%;
+    left: 13%;
+    position: absolute;
+    border-radius: 50%;
+    background-color: #0BCDFF;
+}
+
+.pokedex .poke-izquierda .contenido .circulo-a .circulo-b .circulo-c .circulo-d {
+    width: 40%;
+    height: 40%;
+    top: 15%;
+    left: 15%;
+    position: absolute;
+    background-color: #9CE8FF;
+    border-radius: 50%;
+}
+
+.pokedex .poke-izquierda .contenido .circulo-a:nth-child(2) {
+    left: 120px;
+    height: 20px;
+    width: 20px;
+    background-color: black;
+}
+
+.pokedex .poke-izquierda .contenido .circulo-a:nth-child(2) .circulo-b {
+    background-color: #82071D;
+}
+
+.pokedex .poke-izquierda .contenido .circulo-a:nth-child(2) .circulo-b .circulo-c {
+    background-color: #EF0707;
+}
+
+.pokedex .poke-izquierda .contenido .circulo-a:nth-child(2) .circulo-b .circulo-c .circulo-d {
+    background-color: rgb(227, 227, 227);
+}
+
+.pokedex .poke-izquierda .contenido .circulo-a:nth-child(3) {
+    left: 155px;
+    height: 20px;
+    width: 20px;
+    background-color: black;
+}
+
+.pokedex .poke-izquierda .contenido .circulo-a:nth-child(3) .circulo-b {
+    background-color: #80840B;
+}
+
+.pokedex .poke-izquierda .contenido .circulo-a:nth-child(3) .circulo-b .circulo-c {
+    background-color: #E1E519;
+}
+
+.pokedex .poke-izquierda .contenido .circulo-a:nth-child(3) .circulo-b .circulo-c .circulo-d {
+    background-color: rgb(227, 227, 227);
+}
+
+.pokedex .poke-izquierda .contenido .circulo-a:last-child {
+    left: 190px;
+    height: 20px;
+    width: 20px;
+    background-color: black;
+}
+
+.pokedex .poke-izquierda .contenido .circulo-a:last-child .circulo-b {
+    background-color: #326939;
+}
+
+.pokedex .poke-izquierda .contenido .circulo-a:last-child .circulo-b .circulo-c {
+    background-color: #51B05F;
+}
+
+.pokedex .poke-izquierda .contenido .circulo-a:last-child .circulo-b .circulo-c .circulo-d {
+    background-color: rgb(227, 227, 227);
+}
+
+/*Contenedor izquierda union de contenedores*/
+
+.pokedex .poke-izquierda .union {
+    position: absolute;
+    height: 444px;
+    width: 35px;
+    border: solid 3px rgba(0, 0, 0, 0.55);
+    bottom: 0;
+    right: 0;
+}
+
+.pokedex .poke-izquierda .union .union-union {
+    width: 100%;
+    height: 8px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.80);
+    bottom: 80px;
+    box-shadow: 0 -280px rgba(0, 0, 0, 0.80);
+    z-index: 50;
+}
+
+/*Contenedor izquierda pantalla pokemon*/
+
+.container .poke-izquierda .poke-dis1 {
+    width: 84%;
+    height: 78%;
+    position: absolute;
+    bottom: 9px;
+    left: 9px;
+    border-radius: 10px;
+    border: solid 3px rgba(0, 0, 0, 0.50);
+}
+
+.pokedex .poke-izquierda .poke-dis1 .contorno {
+    width: 100%;
+    height: 65%;
+    box-sizing: border-box;
+    position: relative;
+    border: solid 3px transparent;
+}
+
+.container .poke-izquierda .poke-dis1 .contorno .dis-cont {
+    width: 80%;
+    height: 80%;
+    margin: 35px;
+    background-color: rgb(220, 220, 220);
+    border-radius: 10px 10px 10px 20%;
+    box-shadow: -5px 5px rgba(0, 0, 0, 0.50);
+    position: relative;
+}
+
+.container .poke-izquierda .poke-dis1 .contorno .circulos-deco {
+    position: absolute;
+    top: 0;
+}
+
+.container .poke-izquierda .poke-dis1 .contorno .circulos-red {
+    height: 5px;
+    width: 5px;
+    background-color: rgb(255, 0, 0);
+    border: solid 2px rgb(0, 0, 0);
+    position: absolute;
+    border-radius: 50%;
+    top: 45px;
+    left: 140px;
+}
+
+.container .poke-izquierda .poke-dis1 .contorno .circulos-red:nth-child(2) {
+    left: 190px;
+}
+
+.container .poke-izquierda .poke-dis1 .contorno .circulos-red:last-child {
+    top: 230px;
+    left: 60px;
+    height: 15px;
+    width: 15px;
+}
+
+.container .poke-izquierda .poke-dis1 .contorno .rayas {
+    top: 247px;
+    left: 245px;
+    width: 30px;
+    height: 3px;
+    border-radius: 10px;
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 -8px rgb(0, 0, 0),
+        0 -18px rgb(0, 0, 0);
+}
+
+.container .poke-izquierda .poke-dis1 .contorno .dis-cont .dis-img {
+    width: 200px;
+    height: 70%;
+    position: absolute;
+    top: 30px;
+    left: 27px;
+    border-radius: 10px;
+    display: flex;
+    background-image: url(./IMG/fondo.jpg);
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px black;
+}
+
+.container .poke-izquierda .poke-dis1 .contorno .dis-cont .dis-img img {
+    width: 75%;
+    height: 100%;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.container .poke-izquierda .poke-botones {
+    position: absolute;
+    width: 100%;
+    height: 40%;
+    bottom: 0;
+    box-sizing: border-box;
+}
+
+.container .poke-izquierda .poke-botones .lineas {
+    width: 50px;
+    height: 5px;
+    top: 30px;
+    left: 60px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: rgb(255, 0, 0);
+    border: solid 2px rgb(0, 0, 0);
+}
+
+.container .poke-izquierda .poke-botones .lineas:last-child {
+    background-color: #408fff;
+    left: 150px;
+}
+
+/*Contenedor izquierda boton de musica y pad*/
+
+.container .poke-izquierda .poke-botones .sound {
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    top: 50px;
+    left: 20px;
+    border: none;
+    position: absolute;
+    color: #9CE8FF;
+    background-color: #000000;
+    background-image: url(./IMG/son.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: -3px 4px rgba(0, 0, 0, 0.5);
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.container .poke-izquierda .poke-botones .sound:active {
+    opacity: 0.9;
+    box-shadow: none;
+    transition: all 0.2s ease-in-out;
+}
+
+.container .poke-izquierda .poke-botones .sonido-texto {
+    height: 60px;
+    width: 100px;
+    bottom: 40px;
+    left: 100px;
+    background-color: #228631;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    border: solid 2px black;
+    border-radius: 10px;
+}
+
+.container .poke-izquierda .poke-botones .sonido-texto span {
+    font-weight: bold;
+}
+
+.container .poke-izquierda .poke-botones .poke-pad {
+    margin: 40px 0 0 220px;
+}
+
+.container .poke-izquierda .poke-botones .poke-pad .poke-pad2 {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    transform-style: preserve-3d;
+    box-sizing: border-box;
+}
+
+/*Contenedor derecho informacion*/
+
+.container .pokedex .poke-derecha .poke-info {
+    position: absolute;
+    width: 90%;
+    height: 100%;
+    box-sizing: border-box;
+    transition: all 0.2s ease-in-out;
+    transform-style: preserve-3d;
+}
+
+.container .pokedex:hover .poke-derecha .poke-info {
+    width: 100%;
+    transform: rotateY(180deg);
+}
+
+/*Contenedor derecho datos y portada*/
+
+.container .pokedex .poke-derecha .poke-info .poke-datos,
+.container .pokedex .poke-derecha .poke-info .portada {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    backface-visibility: hidden;
+}
+
+.container .pokedex .poke-derecha .poke-info .poke-datos {
+    background-color: #990000;
+    border: double 15px black;
+    box-sizing: border-box;
+    transform: rotateY(180deg);
+}
+
+.container .pokedex .poke-derecha .poke-info .portada {
+    background-color: #990000;
+    border: solid 6px rgba(0, 0, 0, 0.50);
+    box-sizing: border-box;
+    border-radius: 0 0 0 0;
+}
+
+.container .pokedex .poke-derecha .poke-info .portada .pika {
+    position: absolute;
+    top: 10%
+}
+
+.container .pokedex .poke-derecha .poke-info .portada .pika img {
+    width: 100%;
+    height: 100%;
+}
+
+.container .pokedex .poke-derecha .poke-info .portada .linea {
+    position: absolute;
+    height: 15px;
+    width: 60%;
+    bottom: 10px;
+    left: 75px;
+    border-radius: 10px;
+    background-color: #3333334b;
+    border: solid 3px rgb(63, 63, 63);
+}
+
+/*Contenedor derecho pantalla y estadisticas*/
+
+.container .pokedex .poke-derecha .poke-datos .poke-dis2 {
+    position: absolute;
+    width: 75%;
+    height: 185px;
+    top: 20px;
+    left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container .pokedex .poke-derecha .poke-datos .estadisticas {
+    width: 280px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 0 5px;
+    background-color: #000000;
+    border: solid 7px rgb(36, 36, 36);
+    box-sizing: border-box;
+}
+
+.poke-derecha .poke-datos .estadisticas div {
+    color: rgb(34, 236, 169);
+    font-size: 12px;
+}
+
+.poke-derecha .poke-datos .estadisticas .info {
+    margin-top: .5em;
+    display: block;
+    width: 100%;
+    font-size: 17px;
+    font-weight: bold;
+    height: 41%;
+    color: rgb(255, 255, 255);
+}
+
+.poke-derecha .poke-datos .estadisticas .info .type,
+.poke-derecha .poke-datos .estadisticas .info .haby {
+    display: block;
+    margin-top: 1em;
+    width: 100%;
+    font-size: 17px;
+    font-weight: bold;
+    height: 41%;
+    color: rgb(255, 255, 255);
+}
+
+.poke-derecha .poke-datos .estadisticas .poke-statics {
+    height: 55%;
+    width: 260px;
+    margin: 0 0 0 -5px;
+    display: flex;
+    justify-content: center;
+}
+
+.poke-derecha .poke-datos .estadisticas div[class*="amount"] {
+    height: 3px;
+    width: 25px;
+    display: block;
+    background-color: rgb(231, 231, 231);
+    box-shadow: 0 4px rgb(231, 231, 231), 0 8px rgb(231, 231, 231), 0 12px rgb(231, 231, 231), 0 16px rgb(231, 231, 231),
+        0 20px rgb(231, 231, 231), 0 24px rgb(231, 231, 231), 0 28px rgb(231, 231, 231), 0 32px rgb(231, 231, 231),
+        0 36px rgb(231, 231, 231);
+}
+
+/*Contenedor derecho busqueda y boton*/
+
+.container .pokedex .poke-derecha .poke-bus {
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .pokedex .poke-derecha .poke-datos .busqueda {
+    width: 75%;
+    height: 100%;
+    border: 50%;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    border: rgb(183, 183, 183);
+}
+
+.container .pokedex .poke-derecha .poke-datos .busqueda input {
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    box-sizing: border-box;
+    background-color: transparent;
+    text-align: center;
+}
+
+.container .pokedex .poke-derecha .poke-datos .poke-bus button {
+    border-radius: 10px;
+    font-weight: bold;
+    border: none;
+    background-color: rgb(200, 200, 0);
+    box-shadow: -3px 5px rgba(0, 0, 0, 0.5);
+    color: black;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.container .pokedex .poke-derecha .poke-datos .poke-bus button:active {
+    box-shadow: -1px 2px rgba(0, 0, 0, 0.5);
+    opacity: 0.9;
+    transition: all 0.2s ease;
+}
+
+/*Contenedor derecha rectangulos y circulos decorativos*/
+
+.container .pokedex .poke-derecha .poke-datos .poke-rectangulos {
+    position: absolute;
+    width: 280px;
+    height: 15%;
+    top: 215px;
+    left: 50px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+}
+
+.container .pokedex .poke-derecha .poke-datos .poke-rectangulos .rec {
+    height: 50%;
+    border: solid 2px black;
+    width: 55px;
+    background-color: #408fff;
+    box-sizing: border-box;
+}
+
+.poke-derecha .poke-datos .poke-rectangulos .rec:first-child {
+    border-radius: 10px 0 0 0;
+}
+
+.poke-derecha .poke-datos .poke-rectangulos .rec:last-child {
+    border-radius: 0 0 10px 0;
+}
+
+.poke-derecha .poke-datos .poke-rectangulos .rec:nth-child(5) {
+    border-radius: 0 10px 0 0;
+}
+
+.poke-derecha .poke-datos .poke-rectangulos .rec:nth-child(6) {
+    border-radius: 0 0 0 10px;
+}
+
+.poke-derecha .poke-datos .rectangulos {
+    width: 110px;
+    height: 40px;
+    position: absolute;
+    top: 305px;
+    left: 50px;
+    display: flex;
+}
+
+.poke-derecha .poke-datos .rectangulos .rec {
+    height: 100%;
+    width: 50%;
+    border: solid 2px black;
+    background-color: rgb(222, 222, 222);
+}
+
+.poke-derecha .poke-datos .rectangulos .rec:first-child {
+    border-radius: 10px 0 0 10px;
+}
+
+.poke-derecha .poke-datos .rectangulos .rec:last-child {
+    border-radius: 0 10px 10px 0;
+}
+
+.poke-derecha .poke-datos .circulo {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 315px;
+    left: 290px;
+    border-radius: 50%;
+    background-color: rgb(200, 200, 0);
+}
+
+.poke-derecha .poke-datos .circulo .circulo2 {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 4px;
+    left: 5px;
+    border-radius: 50%;
+    background-color: rgb(230, 234, 124);
+}
+
+/*Contenedor derecho peso y altura */
+
+.poke-derecha .poke-datos .poke-altura,
+.poke-derecha .poke-datos .poke-peso {
+    width: 120px;
+    height: 30px;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: solid 5px rgb(36, 36, 36);
+    background-color: #000000;
+    color: rgb(34, 236, 169);
+    font-weight: bold;
+    font-size: 12px;
+    top: 360px;
+    left: 50px;
+    cursor: pointer;
+}
+
+.poke-derecha .poke-datos .poke-peso {
+    left: 200px;
+}
+
+/*RESPONSIVE*/
+
+@media screen and (max-width: 1000px) {
+    .container {
+        display: block;
+        padding: 0;
+    }
+
+    .container .pokedex {
+        width: 350px;
+        box-sizing: border-box;
+        margin: 5% 25%;
+        border: solid 3px;
+    }
+
+    .pokedex .poke-izquierda,
+    .pokedex .poke-derecha {
+        width: 350px !important;
+        left: 0;
+    }
+
+    .pokedex .poke-izquierda {
+        height: 550px !important;
+    }
+
+    .pokedex .poke-derecha {
+        bottom: 0;
+    }
+
+    .pokedex .poke-izquierda {
+        top: 0;
+    }
+
+    .pokedex .poke-derecha .poke-info {
+        width: 100% !important;
+    }
+
+    .pokedex .poke-derecha .poke-info .poke-datos,
+    .pokedex .poke-derecha .poke-info .portada {
+        height: 415px !important;
+    }
+
+    .pokedex:hover {
+        height: 965px;
+        width: 350px !important;
+    }
+
+    .pokedex:hover .poke-derecha .poke-info {
+        height: 450px;
+        transform: rotateY(0deg) rotateX(180deg) !important;
+    }
+
+    .pokedex:hover .poke-izquierda {
+        height: 550px;
+    }
+
+    .pokedex .poke-izquierda .union {
+        transform: rotate(90deg);
+        top: 355px;
+        left: 155px;
+        height: 345px;
+        border-radius: 0 10px 10px 0;
+    }
+
+    .pokedex .poke-izquierda .union .union-union {
+        box-shadow: 0px -170px rgba(0, 0, 0, 0.80);
+    }
+
+    .pokedex .poke-izquierda .poke-dis1 {
+        width: 93%;
+        height: 70%;
+        top: 110px;
+    }
+
+
+    .pokedex .poke-izquierda .poke-dis1 .contorno .dis-cont {
+        margin: 20px 30px;
+    }
+
+    .pokedex .poke-izquierda .poke-dis1 .contorno .dis-img {
+        top: 25px !important;
+    }
+
+    .pokedex .poke-izquierda .poke-dis1 .contorno .rayas {
+        top: 210px;
+    }
+
+    .pokedex .poke-izquierda .poke-dis1 .contorno .circulos-red {
+        top: 30px;
+        left: 130px;
+    }
+
+    .pokedex .poke-izquierda .poke-dis1 .contorno .circulos-red:nth-child(2) {
+        left: 180px;
+    }
+
+    .pokedex .poke-izquierda .poke-dis1 .contorno .circulos-red:last-child {
+        top: 190px;
+    }
+
+    .pokedex .poke-izquierda .poke-botones .lineas {
+        top: 10px;
+    }
+
+    .pokedex .poke-izquierda .poke-botones .sound {
+        top: 35px;
+        left: 10px;
+    }
+
+    .pokedex .poke-izquierda .poke-botones .sonido-texto {
+        left: 85px;
+        top: 60px;
+    }
+
+    .pokedex .poke-izquierda .poke-botones .poke-pad2 {
+        left: 210px;
+        top: 20px;
+    }
+
+    .pokedex .poke-izquierda .poke-botones .poke-pad2 button {
+        height: 20px;
+        width: 25px;
+    }
+
+    .pokedex .poke-derecha .poke-dis2 {
+        transform: rotate(180deg);
+        width: 87% !important;
+        left: 20px !important;
+        top: 190px !important;
+    }
+
+    .pokedex .poke-derecha .poke-rectangulos {
+        top: 120px !important;
+        left: 20px !important;
+    }
+
+    .pokedex .poke-derecha .rectangulos {
+        top: 65px;
+        left: 190px;
+    }
+
+    .pokedex .poke-derecha .circulo {
+        top: 65px;
+        left: 25px;
+    }
+
+    .pokedex .poke-derecha .circulo .circulo2 {
+        top: 10px;
+        left: 10px;
+    }
+
+    .pokedex .poke-derecha .poke-altura,
+    .pokedex .poke-derecha .poke-peso {
+        transform: rotate(180deg);
+        top: 10px;
+        left: 25px;
+    }
+
+    .pokedex .poke-derecha .poke-peso {
+        left: 170px;
+    }
+
+    .pokedex .poke-derecha .portada .pika {
+        top: 10px !important;
+        left: 150px !important;
+    }
+}
+
+/*RESPONSIVE EXTRA*/
+
+@media screen and (max-width: 680px) {
+    .container .pokedex {
+        margin: 5% 20%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .container .pokedex {
+        margin: 5% 10%;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .container .pokedex {
+        margin: 5% 5px;
+    }
+}

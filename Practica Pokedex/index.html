@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POKEDEX</title>
+    <link rel="icon" href="./IMG/POKEBALL.png">
+    <link rel="stylesheet" href="./pokedex.css">
+</head>
+
+<body>
+
+    <audio id="poke-music" autoplay>
+        <source src="./AUDIO/POKEMUSIC.mp3" type="audio/mpeg">
+    </audio>
+
+    <div class="container">
+        <div class="pokedex">
+            <div class="poke-izquierda">
+                <div class="contenido">
+                    <div class="circulo-a">
+                        <div class="circulo-b">
+                            <div class="circulo-c">
+                                <div class="circulo-d"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="circulo-a">
+                        <div class="circulo-b">
+                            <div class="circulo-c">
+                                <div class="circulo-d"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="circulo-a">
+                        <div class="circulo-b">
+                            <div class="circulo-c">
+                                <div class="circulo-d"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="circulo-a">
+                        <div class="circulo-b">
+                            <div class="circulo-c">
+                                <div class="circulo-d"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="union">
+                    <div class="union-union"></div>
+                </div>
+                <div class="poke-dis1">
+                    <div class="contorno">
+                        <div class="dis-cont">
+                            <div class="dis-img">
+                                <img src="./IMG/pokeload.png" id="poke-error">
+                            </div>
+                        </div>
+                        <div class="rayas"></div>
+                        <div class="circulos-deco">
+                            <div class="circulos-red"></div>
+                            <div class="circulos-red"></div>
+                            <div class="circulos-red"></div>
+                        </div>
+                    </div>
+                    <div class="poke-botones">
+                        <div class="poke-lineas">
+                            <div class="lineas"></div>
+                            <div class="lineas"></div>
+                        </div>
+                        <div class="sonido-texto">
+                            <p>Carlos Corona</p>
+                        </div>
+                        <div class="sonido">
+                            <button class="sound" id="sound-button">
+                            </button>
+                        </div>
+                        <div class="poke-pad">
+                            <div class="poke-pad2">
+                                <img src="./IMG/cruz.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="poke-derecha">
+                <div class="poke-info">
+                    <div class="poke-datos">
+                        <div class="poke-dis2">
+                            <div class="estadisticas">
+                                <div class="info">
+                                    <label for="name1">Nombre:</label>
+                                    <span class="name" id="pokemon-name" id="nombre"></span>
+                                    <div class="type">
+                                        <label for="type1">Tipo:</label>
+                                        <span name="type1" class="pokemon-type"></span>
+                                        <span name="type1" class="pokemon-type"></span>
+                                        <span name="type1" class="pokemon-type"></span>
+                                    </div>
+                                    <div class="haby">
+                                        <label for="ability">Habilidades:</label>
+                                        <span name="ability" class="pokemon-ability"></span>
+                                        <span class="pokemon-ability"></span>
+                                        <span class="pokemon-ability"></span>
+                                        <span class="pokemon-ability"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="poke-bus">
+                                <div class="busqueda">
+                                    <input type="text" name="pokeName" id="pokeName-input" class="pokeName"
+                                        placeholder="Nombre/ID del Pokemon">
+                                </div>
+                                <button onclick="fetchPokemon()"><b>Aceptar</b></button>
+                            </div>
+                        </div>
+                        <div class="poke-rectangulos">
+                            <div class="rec"></div>
+                            <div class="rec"></div>
+                            <div class="rec"></div>
+                            <div class="rec"></div>
+                            <div class="rec"></div>
+                            <div class="rec"></div>
+                            <div class="rec"></div>
+                            <div class="rec"></div>
+                            <div class="rec"></div>
+                            <div class="rec"></div>
+                        </div>
+                        <div class="rectangulos">
+                            <div class="rec"></div>
+                            <div class="rec"></div>
+                        </div>
+                        <div class="circulo">
+                            <div class="circulo2"></div>
+                        </div>
+                        <div class="poke-altura">
+                            <p id="weight">ALTURA: <span id="weight-span">.....</span></p>
+                        </div>
+                        <div class="poke-peso">
+                            <p class="height">PESO: <span id="height-span">.....</span></p>
+                        </div>
+                    </div>
+                    <div class="portada">
+                        <div class="pika"><img src="./IMG/pika.png" alt=""></div>
+                        <div class="linea"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./JS/pokedex.js"></script>
+</body>
+
+</html>
