@@ -1,4 +1,4 @@
-# Practica Vaccination con HTML y CSS :computer: :syringe:
+# Practica Vaccination :computer: :syringe:
 Para esta práctica se requiere replicar la página que está en la siguiente imagen...
 
 <img src="./IMG/ejem.png" alt="ejemplo" height="500">

@@ -1,4 +1,4 @@
-# Practica extra, Club de Perros con HTML y CSS :computer: :dog:
+# Practica extra, Club de Perros :computer: :dog:
 Un club de perros solicita una página web, quieren tener presencia en el mercado digital y buscan competir contra otros clubs a nivel nacional.
 
 Descripción:

@@ -1,4 +1,4 @@
-# Practica Pokedex con JavaScript :computer: :billed_cap:
+# Practica Pokedex :computer: :billed_cap:
 
 En esta semana vimos como usar JavaScript para hacer que nuestras aplicaciones web tomen vida.
 Así que empezaremos a crear la primer página web con JavaScript, la temática será maquetar una pokedex como se muestra en la siguiente imagen…

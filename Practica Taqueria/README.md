@@ -1,4 +1,4 @@
-# Practica Taquería con HTML :computer: :taco:
+# Practica Taquería :computer: :taco:
 Se solicita una página web para un negocio de tacos, el dueño del negocio busca que sus clientes puedan comprar sus tacos sin necesidad de ir al restaurante.
 
 Descripción:

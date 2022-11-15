@@ -1,4 +1,4 @@
-# Practica Pastelería con HTML y CSS :computer: :birthday:
+# Practica Pastelería :computer: :birthday:
 Para esta práctica se tendrá que maquetar en HTML y CSS el siguiente caso.
 
 Solamente se necesita maquetar como un prototipo, no es necesario que tenga funcionalidad completa en la información.
