@@ -77,7 +77,7 @@ const pokeTypeAbility = (pokeTypes, pokeAbilities) => {
     // se usa spread operator para convertirlo en array object
     const pokemonTypes = [...(document.getElementsByClassName("pokemon-type"))];
     const pokemonAbilities = [...(document.getElementsByClassName("pokemon-ability"))];
-    const colores = ["#ff5e00", "#005e00", "#6b0303", "#03456b", "#340057"];
+    const colores = ["#ff5e00", "#005e00", "#6b0303", "#03456b", "#391153"];
 
     // write each type in each spam tag
     pokemonTypes.forEach((element, index) => {
