@@ -63,7 +63,7 @@ const pokeImage = (url) => {
 
 const pokeData = (pokeId, pokeName) => {
     const pokeIdName = document.getElementById("pokemon-name");
-    pokeIdName.textContent = "#0" + pokeId.toString() + "-" + pokeName.toUpperCase();
+    pokeIdName.textContent = "#" + pokeId.toString() + "-" + pokeName.toUpperCase();
 }
 
 const pokeBody = (pokeHeight, pokeWeight) => {

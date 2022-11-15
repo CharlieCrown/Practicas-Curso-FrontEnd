@@ -347,13 +347,14 @@ body {
     width: 100px;
     bottom: 40px;
     left: 100px;
-    background-color: #228631;
+    background-color: #0b6e1a;
     position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     font-weight: bold;
+    color: rgb(255, 255, 255);
     border: solid 2px black;
     border-radius: 10px;
 }
