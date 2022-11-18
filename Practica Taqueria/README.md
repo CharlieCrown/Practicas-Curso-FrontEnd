@@ -12,9 +12,9 @@ Descripción:
 
 ***También puedes ir al link directo de la página web, ¡vamos vela tú mismo! :eyes: :point_right: [LINK](https://charliecrown.github.io/Taqueria/)***
 
-<img src="./Img/cap1.PNG" alt="Inicio" height="500">
-<img src="./Img/cap2.PNG" alt="Menu" height="500">
-<img src="./Img/cap3.PNG" alt="Ubicacion" height="350">
-<img src="./Img/cap4.PNG" alt="Formulario" height="500">
+<img src="./Img/captu1.PNG" alt="Inicio" height="500">
+<img src="./Img/captu2.PNG" alt="Menu" height="500">
+<img src="./Img/captu3.PNG" alt="Ubicacion" height="350">
+<img src="./Img/captu4.PNG" alt="Formulario" height="500">
 
 [Volver al menú &ldca;](../README.md "Regresar a página principal")
