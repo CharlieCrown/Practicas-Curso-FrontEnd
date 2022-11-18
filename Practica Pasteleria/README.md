@@ -34,17 +34,20 @@ Descripción:
 
 ***Te dejo el link directo de la página web cliente, ¡vamos vela tú mismo! :eyes: :point_right: [LINK](https://charliecrown.github.io/Morry-Cake/)***
 
-<img src="./img/pa1.PNG" alt="Inicio" height="500">
-<img src="./img/pa2.PNG" alt="Menu" height="500">
-<img src="./img/pa3.PNG" alt="footer" height="500">
-<img src="./img/pa4.PNG" alt="pedidos" height="500">
+<img src="./img/cli1.PNG" alt="Inicio" height="500">
+<img src="./img/cli2.PNG" alt="Menu" height="500">
+<img src="./img/cli3.PNG" alt="cumple" height="500">
+<img src="./img/cli4.PNG" alt="bodas" height="500">
+<img src="./img/cli5.PNG" alt="rebanada" height="500">
+<img src="./img/cli6.PNG" alt="pedidos" height="500">
+<img src="./img/cli7.PNG" alt="footer" height="500">
 
 ### Pastelero
 
 ***Te dejo el link directo de la página web pastelero, ¡vamos vela tú mismo! :eyes: :point_right: [LINK](https://charliecrown.github.io/Morry-Cake/pastelero.html)***
 
-<img src="./img/pas1.PNG" alt="Inicio" height="500">
-<img src="./img/pas2.PNG" alt="Inventario" height="500">
-<img src="./img/pas3.PNG" alt="Inventario" height="500">
+<img src="./img/past1.PNG" alt="Inicio" height="500">
+<img src="./img/past2.PNG" alt="Inventario" height="500">
+<img src="./img/past3.PNG" alt="Inventario" height="500">
 
 [Volver al menú &ldca;](../README.md "Regresar a página principal")
