@@ -64,7 +64,7 @@ Tecnologías empleadas:
 
 ***¡Adelante échale un vistazo! :eyes: :point_right: [VER](./Practica%20Vaccination/README.md)***
 
-<img src="./IMG/va1.PNG" alt="Vaccination1" height="300">
+<img src="./IMG/vacc1.PNG" alt="Vaccination1" height="300">
 
 ## 6.- Proyecto Hackathon GitHub :computer: :rocket:
 Para el Hackathon de GitHub, realice un clon de Spotify, maquetado con HTML y CSS, el proyecto aun no está terminado, ya que mi siguiente reto es trabajar con JavaScript y así tener una página web dinámica.
