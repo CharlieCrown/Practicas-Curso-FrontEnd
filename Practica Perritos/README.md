@@ -12,8 +12,8 @@ Descripción:
 
 ***También puedes ir al link directo de la página web, ¡vamos vela tú mismo! :eyes: :point_right: [LINK](https://charliecrown.github.io/Club-De-Perros/)***
 
-<img src="./img/club1.PNG" alt="Inicio" height="500">
-<img src="./img/club2.PNG" alt="blog" height="500">
-<img src="./img/club3.PNG" alt="footer" height="500">
+<img src="./img/cap1.PNG" alt="Inicio" height="500">
+<img src="./img/cap2.PNG" alt="blog" height="500">
+<img src="./img/cap3.PNG" alt="footer" height="500">
 
 [Volver al menú &ldca;](../README.md "Regresar a página principal")
